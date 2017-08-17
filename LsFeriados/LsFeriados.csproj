@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassesInternas\ListaFeriados.cs" />
+    <Compile Include="Enums\Meses.cs" />
+    <Compile Include="Enums\Estados.cs" />
+    <Compile Include="Feriados.cs" />
     <Compile Include="LsFeriados.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
