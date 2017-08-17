@@ -39,6 +39,14 @@ namespace LsFeriados {
         }
 
         /// <summary>
+        /// Limpa todos os feriados avulsos que foram adicionados manualmente
+        /// </summary>
+        public static void LimparFeriados() {
+            var listaFeriados = new ListaFeriados(ConsideraSextaFeiraSanta);
+            listaFeriados.FeriadosMunicipaisEOutros.Clear();
+        }
+
+        /// <summary>
         /// Verifica se a data em questão é considerada um feriado
         /// </summary>
         /// <param name="data">Data que será validada</param>
